@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <!--IE Meta LESSON 3 Not Added-->
+        <!-- First Mobile Meta-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BootStrap Learning</title>
+        <link rel='stylesheet' href='css/bootstrap.css'/>
+        <link rel='stylesheet' href='css/fontawesome-all.min.css'/>
+        <link rel='stylesheet' href='css/style.css'/>
+        <link rel='stylesheet' href='css/media.css'/>
+        <link rel='stylesheet' href='css/default_theme.css'/>
+        
+         <script src="js/html5shiv.min.js"></script>
+         <script src="js/respond.min.js"></script>
+        
+    </head>
+    <body>
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+     <!--Start NavBar-->    
+     <nav class="navbar navbar-inverse navbar-fixed-top">
+        
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#our-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Cleoptra <span>Ch.</span></a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse" id="our-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Main</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">2odsat</a></li>
+            <li><a href="#">A3trafat</a></li>
+            <li><a href="#">Madaras A7ad</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Courses</a></li>
+          </ul>
+        </li>
+         <li><a href="#">Map</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+  
+</nav>
+     
+     <!--End NavBar--> 
+
+     <!--Start Option Box-->
+    <section class="option-box">
+      <div class="color-option">
+        <h4>Color Option</h4>
+        <ul class="list-unstyled">
+          <li data-value='css/default_theme.css'></li>
+          <li data-value='css/purple_theme.css'></li>
+          <li data-value='css/blue_theme.css'></li>
+          <li data-value='css/yellow_theme.css'></li>
+          
+        </ul>
+      </div>
+      <i class="fas fa-cog fa-3x gear-check"></i>
+    </section>
+
+     <!--End Option Box-->
+<!--start carousel-->
+<div id="myslider" class="carousel slide hidden-xs" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myslider" data-slide-to="0" class="active"></li>
+    <li data-target="#myslider" data-slide-to="1"></li>
+    <li data-target="#myslider" data-slide-to="2"></li>
+     
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/slider-1.jpg" alt="...">
+      <div class="carousel-caption hidden-xs">
+        <h1>Programming</h1>
+        <p class="lead">
+           Bootstrap exclusively uses CSS3 for its animations,
+           but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers.
+           We have intentionally decided not to include jQuery-based fallbacks for the transitions. 
+        </p> 
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/slider-2.jpg" alt="...">
+      <div class="carousel-caption hidden-xs">
+        <h1>Desktop</h1>
+        <p class="lead">
+           Bootstrap exclusively uses CSS3 for its animations,
+           but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers.
+           We have intentionally decided not to include jQuery-based fallbacks for the transitions. 
+        </p>
+      </div>
+    </div>
+     <div class="item">
+      <img src="images/slider-3.jpg" alt="...">
+      <div class="carousel-caption hidden-xs">
+          <h1>Design</h1>
+        <p class="lead">
+           Bootstrap exclusively uses CSS3 for its animations,
+           but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers.
+           We have intentionally decided not to include jQuery-based fallbacks for the transitions. 
+        </p> 
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myslider" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myslider" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!--End carousel-->
+<!--Start Section-->
+<section class="about text-center">
+    <div class="container">
+    <h1 class="hidden-xs">St. Cleoptra <span>Church</span> Complete Templete</h1>
+    <h3 class="visible-xs">St. Cleoptra <span>Church</span> Complete Templete</h3>
+    <p class="lead">This is Fisrt Trial for building Complete website using <strong>bootsrap</strong> framewoek </p>
+    </div>
+</section>
+<!--End Section-->
+<!--start features-->
+<section class="features text-center">
+    <div class="container">
+        <h1>Features</h1>
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="feat">
+                   <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                <h4>100 % Responsive</h4>
+                <p>The affix plugin toggles between three classes, each representing a particular state: .affix, .affix-top, and .affix-bottom. You must provide the styles, with the exception of position: fixed; on .affix,
+                for these classes yourself (independent of this plugin) to handle the actual positions.</p>  
+                </div> 
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="feat">
+                   <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+                <h4>Retina Ready</h4>
+                <p>The affix plugin toggles between three classes, each representing a particular state: .affix, .affix-top, and .affix-bottom. You must provide the styles, with the exception of position: fixed; on
+                .affix, for these classes yourself (independent of this plugin) to handle the actual positions.</p>  
+                </div> 
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="feat">
+                   <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                <h4>Good Display</h4>
+                <p>The affix plugin toggles between three classes, each representing a particular state: .affix, .affix-top, and .affix-bottom. You must provide the styles, with the exception of position: fixed;
+                on .affix, for these classes yourself (independent of this plugin) to handle the actual positions.</p>  
+                </div> 
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="feat">
+                   <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+                <h4>Framework</h4>
+                <p>The affix plugin toggles between three classes, each representing a particular state: .affix, .affix-top, and .affix-bottom. You must provide the styles, with the exception of position: fixed;
+                on .affix, for these classes yourself (independent of this plugin) to handle the actual positions.</p>  
+                </div> 
+            </div>
+        </div>
+    </div>
+    
+</section>
+<!--end features-->
+<!--start testimonials-->
+<section class="testimonials text-center">
+<div class="container">
+        <h1>What's our client says?</h1>
+            <!--start testimonials carousel-->
+        <div id="carousel-testimonials" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                  <p class="lead">
+                     Bootstrap exclusively uses CSS3 for its animations,
+                     but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers.
+                     We have intentionally decided not to include jQuery-based fallbacks for the transitions. 
+                  </p>
+                  <span>Said by: Osama</span>
+              </div>
+              <div class="item">
+                  <p class="lead">
+                     Bootstrap exclusively uses CSS3 for its animations,
+                     but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers.
+                     We have intentionally decided not to include jQuery-based fallbacks for the transitions. 
+                  </p>
+                   <span>Said by: Bishoy</span>
+              </div>
+               <div class="item">
+                  <p class="lead">
+                     Bootstrap exclusively uses CSS3 for its animations,
+                     but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers.
+                     We have intentionally decided not to include jQuery-based fallbacks for the transitions. 
+                  </p>
+                  <span>Said by: Flora</span>
+              </div>
+            ...
+          </div>
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-testimonials" data-slide-to="0" class="active">
+                <img src="images/personal-1.jpg" alt="osama"/>
+            </li>
+            <li data-target="#carousel-testimonials" data-slide-to="1">
+                <img src="images/personal-2.jpg" alt="Bishoy"/>
+            </li>
+            <li data-target="#carousel-testimonials" data-slide-to="2">
+                <img src="images/personal-3.jpg" alt="Flora"/>
+            </li>
+             
+          </ol>
+        </div>
+<!--End testimonials carousel-->
+</div>
+</section>
+<!--end testimonials-->
+<!--start section price list-->
+<section class="price-table text-center">
+    <div class="container">
+        <h1>Our Amazing Prices</h1>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="price-box">
+                    <h3 class="text-success">Hosting</h3>
+                    <p class="center-block">40$</p>
+                    <ul class="list-unstyled">
+                      <li>Space        : 20GB</li>
+                      <li>Emails       : 20</li>
+                      <li>IPs          : 2IP's</li>
+                      <li>Database     : 10</li>
+                      <li>FTP Accounts : 5</li>
+                    </ul>
+                    <a href="#" class="btn btn-success">Order Now</a>
+                </div>
+            </div>
+            
+                  <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="price-box">
+                    <h3 class="text-info">VPN's</h3>
+                    <p class="center-block">50$</p>
+                    <ul class="list-unstyled">
+                      <li>Space        : 40GB</li>
+                      <li>Emails       : 30</li>
+                      <li>IPs          : 2IP's</li>
+                      <li>Database     : 20</li>
+                      <li>FTP Accounts : 5</li>
+                    </ul>
+                    <a href="#" class="btn btn-info">Order Now</a>
+                </div>
+            </div>
+              
+                 <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="price-box">
+                    <h3 class="text-danger">Dedicated</h3>
+                    <p class="center-block">80$</p>
+                    <ul class="list-unstyled">
+                      <li>Space        : 60GB</li>
+                      <li>Emails       : 20</li>
+                      <li>IPs          : 3IP's</li>
+                      <li>Database     : 50</li>
+                      <li>FTP Accounts : 5</li>
+                    </ul>
+                    <a href="#" class="btn btn-danger">Order Now</a>
+                </div>
+            </div>
+              
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="price-box">
+                    <h3 class="text-primary">Cloud</h3>
+                    <p class="center-block">100$</p>
+                    <ul class="list-unstyled">
+                      <li>Space        : 90GB</li>
+                      <li>Emails       : 100</li>
+                      <li>IPs          : 5IP's</li>
+                      <li>Database     : 10</li>
+                      <li>FTP Accounts : 10</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end section price list-->
+<!--start our team section-->
+<section class="our-team text-center">
+  <div class="team">
+    <div class="container">
+       <h1>Meet our awesome team</h1>
+    <div class="row">
+      
+      <div class="col-lg-3 col-sm-6 col-xs-12">
+        <div class="person">
+          <img class="img-circle" src="images/celb1.jpg" alt="celb 1"/>
+          <h3>Bishoy Gamal</h3>
+          <p>Bishoy is the owner and founder of light software that's my dream</p>
+          <i class="fab fa-google-plus fa-lg"></i>
+            <i class="fab fa-facebook fa-lg"></i>
+             <i class="fab fa-twitter fa-lg"></i>
+              <i class="fab fa-youtube fa-lg"></i>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 col-xs-12">
+         <div class="person">
+          <img class="img-circle" src="images/celb2.jpg" alt="celb 2"/>
+          <h3>Flora Safwat</h3>
+          <p>Bishoy is the owner and founder of light software that's my dream</p>
+           <i class="fab fa-google-plus fa-lg"></i>
+            <i class="fab fa-facebook fa-lg"></i>
+             <i class="fab fa-twitter fa-lg"></i>
+              <i class="fab fa-youtube fa-lg"></i>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 col-xs-12">
+         <div class="person">
+          <img class="img-circle" src="images/celb3.jpg" alt="celb 3"/>
+          <h3>Samy Safwat</h3>
+          <p>Bishoy is the owner and founder of light software that's my dream</p>
+           <i class="fab fa-google-plus fa-lg"></i>
+            <i class="fab fa-facebook fa-lg"></i>
+             <i class="fab fa-twitter fa-lg"></i>
+              <i class="fab fa-youtube fa-lg"></i>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 col-xs-12">
+         <div class="person">
+          <img class="img-circle" src="images/celb4.jpg" alt="celb 4"/>
+          <h3>Basem Gamal</h3>
+          <p>Bishoy is the owner and founder of light software that's my dream</p>
+           <i class="fab fa-google-plus fa-lg"></i>
+            <i class="fab fa-facebook fa-lg"></i>
+             <i class="fab fa-twitter fa-lg"></i>
+              <i class="fab fa-youtube fa-lg"></i>
+        </div>
+      </div>
+      
+    </div>
+    </div>
+   </div>
+</section>
+<!--end our team section-->
+<!--start Section Subscribe-->
+<section class="subscribe text-center">
+  <div class="container">
+    <h1>Keep on Touch</h1>
+    <p class="lead">Sign up for Newsletter, Don't Worry about Spam</p>
+    <form class="form-inline">
+      <input class="form-control input-lg" type="text" placeholder="Write your email">
+      <button class="btn btn-danger btn-lg"><i class="fa fa-edit"></i> Sign Up</button>
+    </form>
+  </div>
+</section>
+<!--end Section Subscribe-->
+<!--start section stats-->
+<section class="stats text-center">
+  <div class="data">
+      <div class="container">
+        <h1>Our  Main Staistics</h1>
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="st">
+              <i class="fa fa-user fa-5x"></i>
+              <p>9.550</p>
+              <span>Statisfied Users</span>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-sm-6">
+            <div class="st">
+              <i class="fa fa-comments fa-5x"></i>
+              <p>25.650</p>
+              <span>Posted Comments</span>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-sm-6">
+            <div class="st">
+              <i class="fa fa-suitcase fa-5x"></i>
+              <p>3.260</p>
+              <span>Projects Done</span>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-sm-6">
+            <div class="st">
+              <i class="fa fa-user fa-5x"></i>
+               <p>98.260</p>
+               <span>Thickets Achived</span>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+  </div>
+</section>
+<!--end section stats-->
+<!--start section our skills-->
+<section class="our-skills">
+  <div class="container">
+    <h1 class="text-center">Our Skills</h1>
+    <div class="row">
+      <!--start progress skills -->
+      <div class="col-md-5">
+        <div class="skills-progress">
+          <div class="progress">
+            <div class="progress-bar progress-bar-success progress-bar-striped active" role="progress-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+              HTML/CSS
+            </div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+              PHP/MYSQL
+            </div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progress-bar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+              JAVASCRIPT/JQUERY
+            </div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar progress-bar-info progress-bar-striped active" role="progress-bar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+              Wordpress
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--end progress skills -->
+        <!--start team info -->
+      <div class="col-md-6 col-md-offset-1">
+        <div class="skills-info">
+          <h3>About the Team</h3>
+          <p class="lead"> we are specialized Designing and Programming team passsionate about web Design and creating digital ideas and make your wish comes true</p>
+          <button type="button" class="btn btn-primary">Talk with Professional</button>
+        </div>
+      </div>
+      <!--end team info -->
+    </div>
+  </div>
+</section>
+<!--end section our skills-->
+
+<!--Start Section Contact Us-->
+<section class="contact-us text-center">
+  <div class="fields">
+    <div class="container">
+      <div class="row">
+      <i class="fa fa-headphones fa-5x"></i>
+      <h1>Tell us What you feel ?</h1>
+      <p class="lead">Feel Free to contact us Any Time</p>
+      <!--start contact form-->
+       <form role="form">
+        <div class="col-md-6">
+        <div class="form-group">
+          <input type="text" class="form-control input-lg" placeholder="User Name">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control input-lg" placeholder="Email">
+        </div>
+          <div class="form-group">
+          <input type="text" class="form-control input-lg" placeholder="Cell Phone">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <textarea class="form-control input-lg" placeholder="Your Message"></textarea>
+        </div>
+        <button type="button" class="btn btn-danger btn-lg btn-block">Contact us</button>
+      </div>
+       </form>
+      <!--end Contact form-->
+    </div>
+    </div>
+  </div>
+</section>
+
+
+<!--End Section Contact Us-->
+<!-- Start Section Our Client -->
+<section class="our-clients">
+  <div class="container">
+    <div class="row">
+      <ul class="list-unstyled">
+        <li class="col-md-2 col-xs-4">
+          <img class="img-responsive center-block" src="images/personal-1.jpg" alt="personal-1" />
+        </li>
+        <li class="col-md-2 col-xs-4">
+          <img class="img-responsive center-block" src="images/personal-1.jpg" alt="personal-1" />
+        </li>
+        <li class="col-md-2 col-xs-4">
+          <img class="img-responsive center-block" src="images/personal-2.jpg" alt="personal-1" />
+        </li>
+        <li class="col-md-2 col-xs-4">
+          <img class="img-responsive center-block" src="images/personal-1.jpg" alt="personal-1" />
+        </li>
+        <li class="col-md-2 col-xs-4">
+          <img class="img-responsive center-block" src="images/personal-3.jpg" alt="personal-1" />
+        </li>
+        <li class="col-md-2 col-xs-4">
+          <img class="img-responsive center-block" src="images/personal-1.jpg" alt="personal-1" />
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- End Section Our Client-->
+<!--Start Ultimate Footer Section-->
+<section class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+       <h3>Site Map</h3>
+       <ul class="list-unstyled three-columns">
+         <li>Home</li>
+         <li>Service</li>
+         <li>About</li>
+         <li>Company</li>
+         <li>Code</li>
+         <li>Design</li>
+         <li>Host</li>
+         <li>Solutions</li>
+         <li>SiteMap</li>
+         <li>Contact-us</li>
+       </ul>
+      </div>
+      <div class="col-lg-4">
+        Test
+      </div>
+      <div class="col-lg-4">
+        Test
+      </div>
+  </div>
+</section>
+<!--End Ultimate Footer Section-->
+<!--Start Loading Section-->
+
+<section class="loading-overlay">
+  <div class="spinner">
+  <div class="double-bounce1"></div>
+  <div class="double-bounce2"></div>
+</div>
+</section>
+
+<!--End Loading Section-->
+<!--Start Scroll-button-->
+<section id="scroll-top">
+  <i class="fa fa_chevron_up fa-3x"></i>
+</section>
+<!--End Scroll-button-->
+    </body>
+</html>
